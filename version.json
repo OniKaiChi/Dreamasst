@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "changelog": "• Base del launcher\n• Sistema de actualizaciones",
+  "patchFiles": [
+    {
+      "type": "zip",
+      "url": "none"
+    }
+  ],
+  "delete": ["none", "none"]
+}
