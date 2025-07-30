@@ -1,9 +1,17 @@
 {
   "version": "1.0.99",
   "changelog": "Actualización de prueba del launcher a 1.0.99.",
-  "launcherPatch": {
-    "url": "https://onikaichi.com/DreamyNight/launcher-update-test.zip",
-    "hash": "71f85dcb268d738062b682bfdaabb1367f8a10b1197f47d30f1f7c845a6e5fbb",
+  "launcherFiles": {
+    {
+      "path": "index.html",
+      "url": "https://onikaichi.com/DreamyNight/index.html",
+      "hash": null
+    },
+    {
+      "path": "renderer.js",
+      "url": "https://onikaichi.com/DreamyNight/renderer.js",
+      "hash": null
+    },
     "delete": [
       "renderer.js",
       "index.html"
