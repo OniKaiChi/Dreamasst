@@ -1,5 +1,12 @@
 {
-  "version": "0.0.1",
-  "changelog": "Versión inicial.",
+  "version": "1.0.99",
+  "changelog": "Prueba de actualización del launcher: se reemplazarán algunos archivos ficticios para comprobar que el updater funciona.",
+  "launcherPatch": {
+    "url": "https://raw.githubusercontent.com/OniKaiChi/Dreamasst/refs/heads/main/launcher-update-test.zip",
+    "hash": "cc6e05c5645f8ad0c1e5918d78753dc63caa4a5412251c250fcb792ab1d4dfd3",
+    "delete": ["renderer.js", "index.html"],
+    "version": "1.0.99",
+    "isLauncherPatch": true
+  },
   "patchFiles": []
 }
